@@ -8,7 +8,7 @@ fi
 
 # Guardar el acceso directo 'menu' en el sistema si no existe
 if [ ! -f /usr/bin/menu ]; then
-  curl -sL https://raw.githubusercontent.com/Russonetfree/netfree-arm/refs/heads/main/menu.sh > /usr/bin/menu
+  curl -sL https://raw.githubusercontent.com/Russossh/RUSSONET-RD/refs/heads/main/menu.sh > /usr/bin/menu
   chmod +x /usr/bin/menu
 fi
 
